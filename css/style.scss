@@ -793,7 +793,6 @@ body {
         color: transparent;
         font-size: 25px;
         transition: all .3s linear;
-        opacity: .7;
         z-index: 99;
         text-transform: uppercase;
     }
@@ -824,7 +823,6 @@ body {
         .proj_name {
             padding-top: 20px;
             color: var(--primary);
-            opacity: 1;
             letter-spacing: 3px;
         }
     }

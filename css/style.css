@@ -1475,7 +1475,6 @@ body {
   font-size: 25px;
   -webkit-transition: all .3s linear;
   transition: all .3s linear;
-  opacity: .7;
   z-index: 99;
   text-transform: uppercase;
 }
@@ -1524,7 +1523,6 @@ body {
 .portfolio_card:hover .proj_name {
   padding-top: 20px;
   color: var(--primary);
-  opacity: 1;
   letter-spacing: 3px;
 }
 
