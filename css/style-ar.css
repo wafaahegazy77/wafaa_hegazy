@@ -1,0 +1,9 @@
+body{
+    direction: rtl;
+}
+
+.progress-wrap {
+    right: 20px;
+    left: unset;
+}
+
