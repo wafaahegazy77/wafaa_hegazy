@@ -56,6 +56,12 @@ var swiper = new Swiper('.projects_inner .projects_swiper', {
     },
 });
 
+$(document).ready(function() {
+    setTimeout(function() {
+       $('body').addClass('loaded');
+   }, 100);
+
+});
 
 //Dark Mode 
 // if(localStorage.darkMode=="true") {
