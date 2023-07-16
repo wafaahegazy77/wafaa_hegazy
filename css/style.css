@@ -1167,12 +1167,16 @@ body {
 }
 
 .expertise_card:hover .icon {
-  -webkit-animation: pulse 1s infinite;
-          animation: pulse 1s infinite;
+  -webkit-animation: pulse 2s infinite;
+          animation: pulse 2s infinite;
 }
 
 .skill-card {
-  margin-bottom: 150px;
+  display: block;
+  margin: 0 auto 150px auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .skill-card .progress-shape {
@@ -1410,7 +1414,7 @@ body {
   background-size: contain;
   display: block;
   position: absolute;
-  top: 0;
+  top: 1px;
   inset-inline-start: 0;
 }
 

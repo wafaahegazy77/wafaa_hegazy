@@ -31,7 +31,14 @@
         width: 90%;
     }
 }
+@media(max-width:991px)
+{
+    .expertise_card {
+        margin-top: 0 !important;
+    }
+}
 /*=
+
 /*============================== Start small screen of mobile =========================*/
 @media(max-width:768px)
 {
