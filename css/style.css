@@ -789,6 +789,7 @@ body {
 **********************************************/
 .content-sec {
   padding: 130px 0px 100px 0px;
+  overflow: unset;
 }
 
 .content-sec .container-fluid {
