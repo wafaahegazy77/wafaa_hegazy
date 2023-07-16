@@ -186,8 +186,8 @@ form .form-check-input {
   position: fixed;
   inset-inline-end: 20px;
   bottom: 20px;
-  height: 55px;
-  width: 55px;
+  height: 45px;
+  width: 45px;
   cursor: pointer;
   display: block;
   border-radius: 50px;
@@ -225,10 +225,10 @@ form .form-check-input {
   -webkit-font-smoothing: antialiased;
   position: absolute;
   color: var(--primary);
-  left: 13px;
-  top: 13px;
-  height: 30px;
-  width: 30px;
+  left: 10.5px;
+  top: 9px;
+  height: 25px;
+  width: 25px;
   display: block;
   -webkit-filter: var(--filterPrimary);
           filter: var(--filterPrimary);
@@ -742,6 +742,10 @@ form .form-check-input {
      object-fit: contain;
 }
 
+.bg-triangles {
+  position: relative;
+}
+
 .bg-triangles::before {
   content: '';
   width: 100%;
@@ -752,7 +756,7 @@ form .form-check-input {
   background-repeat: no-repeat;
   background-size: inherit;
   position: absolute;
-  opacity: .09;
+  opacity: .3;
   top: 0;
   right: 0;
   bottom: 0;
