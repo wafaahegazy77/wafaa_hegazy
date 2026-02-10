@@ -37,7 +37,7 @@ $(window).scroll(function() {
 //Swiper 
 var swiper = new Swiper('.projects_inner .projects_swiper', {
     // loop: true,
-    speed: 900,
+    speed: 1500,
     slidesPerView: 1,
     spaceBetween: 15,
     // autoplay: {

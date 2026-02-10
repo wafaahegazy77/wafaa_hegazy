@@ -790,13 +790,13 @@ body {
  
     .proj_name {
         position: absolute;
-        top: 0;
+        top: 5px;
         width: 100%;
         text-align: center;
         padding: 15px 5px 0 5px;
         text-transform: uppercase !important;
-        -webkit-text-stroke: 0.45px #EC595E;
-        color: transparent;
+        // -webkit-text-stroke: 0.45px #EC595E;
+        color: #99999930;
         font-size: 25px;
         transition: all .3s linear;
         z-index: 99;
@@ -829,7 +829,7 @@ body {
         .proj_name {
             padding-top: 20px;
             color: var(--primary);
-            letter-spacing: 3px;
+            letter-spacing: 2px;
         }
     }
 }
